@@ -4,9 +4,9 @@ class Solution {
     fun solution(nums: IntArray): Int {
         var answer = 0
         val lastIndex = nums.lastIndex
-        for (i in 0..(lastIndex - 2)) {
-            for (j in (i + 1)..(lastIndex - 1)) {
-                for (k in (j + 1)..lastIndex) {
+        for (i in 0..lastIndex - 2) {
+            for (j in i + 1..lastIndex - 1) {
+                for (k in j + 1..lastIndex) {
                     if (prime(nums[i] + nums[j] + nums[k])) {
                         answer++
                     }
