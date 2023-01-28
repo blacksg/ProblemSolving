@@ -7,7 +7,7 @@ class Solution {
         return lw * lh - (lw + lh - gcd(w, h))
     }
     
-    fun gcd(a: Int, b: Int): Int {
+    tailrec fun gcd(a: Int, b: Int): Int {
         return if (b == 0) a else gcd(b, a % b)
     }
 }
