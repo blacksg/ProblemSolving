@@ -17,6 +17,6 @@ internal class SolutionTest {
         assertEquals(s.gcd(3, 2), 1)
         assertEquals(s.gcd(2, 5), 1)
         assertEquals(s.gcd(8, 12), 4)
-        assertEquals(s.gcd(1, 1), 2)
+        assertEquals(s.gcd(2, 2), 2)
     }
 }
