@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 
-internal class Solution1Test {
+internal class SolutionTest {
     
-    private val s = Solution1()
+    private val s = Solution()
     
     @Test
     fun solutionTest1() {
@@ -15,7 +15,7 @@ internal class Solution1Test {
             deliveries = intArrayOf(1, 0, 3, 1, 2),
             pickups = intArrayOf(0, 3, 0, 4, 0)
         )
-        assertEquals(sol, 16L)
+        assertEquals(16L, sol)
     }
     
     @Test
@@ -25,6 +25,6 @@ internal class Solution1Test {
             deliveries = intArrayOf(1, 0, 2, 0, 1, 0, 2),
             pickups = intArrayOf(0, 2, 0, 1, 0, 2, 0)
         )
-        assertEquals(sol, 30L)
+        assertEquals(30L, sol)
     }
 }

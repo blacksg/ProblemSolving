@@ -15,7 +15,7 @@ internal class Solution2Test {
             deliveries = intArrayOf(1, 0, 3, 1, 2),
             pickups = intArrayOf(0, 3, 0, 4, 0)
         )
-        assertEquals(16L, sol)
+        assertEquals(sol, 16L)
     }
     
     @Test
@@ -25,6 +25,6 @@ internal class Solution2Test {
             deliveries = intArrayOf(1, 0, 2, 0, 1, 0, 2),
             pickups = intArrayOf(0, 2, 0, 1, 0, 2, 0)
         )
-        assertEquals(30L, sol)
+        assertEquals(sol, 30L)
     }
 }
