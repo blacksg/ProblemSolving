@@ -7,7 +7,7 @@ class Solution {
         for (i in 0..lastIndex - 2) {
             for (j in i + 1..lastIndex - 1) {
                 for (k in j + 1..lastIndex) {
-                    if (prime(nums[i] + nums[j] + nums[k])) {
+                    if (isPrime(nums[i] + nums[j] + nums[k])) {
                         answer++
                     }
                 }
@@ -16,7 +16,7 @@ class Solution {
         return answer
     }
     
-    fun prime(num: Int): Boolean {
+    fun isPrime(num: Int): Boolean {
         if (num == 1) {
             return false
         }

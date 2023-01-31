@@ -23,9 +23,9 @@ internal class SolutionTest {
     
     @Test
     fun primeTest() {
-        assertTrue(s.prime(2))
-        assertTrue(s.prime(3))
-        assertFalse(s.prime(9))
-        assertFalse(s.prime(16129))
+        assertTrue(s.isPrime(2))
+        assertTrue(s.isPrime(3))
+        assertFalse(s.isPrime(9))
+        assertFalse(s.isPrime(16129))
     }
 }
