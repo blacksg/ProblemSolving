@@ -6,10 +6,8 @@ class Solution {
         val targetListMap = hashMapOf<String, ArrayList<String>>()
         val reportCountMap = hashMapOf<String, Int>()
         for (record in report.distinct()) {
-            val (reporter, target) = record.split(" ")
-                .let { it[0] to it[1] }
-            targetListMap.getOrPut(reporter) { arrayListOf() }
-                .add(target)
+            val (reporter, target) = record.split(" ").let { it[0] to it[1] }
+            targetListMap.getOrPut(reporter) { arrayListOf() }.add(target)
             reportCountMap[target] = reportCountMap.getOrDefault(target, 0) + 1
         }
         for (i in id_list.indices) {
