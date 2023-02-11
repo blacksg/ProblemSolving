@@ -1,0 +1,13 @@
+package programmers.monthly_code_challenge.나머지가_1이_되는_수_찾기
+
+class Solution {
+    fun solution(n: Int): Int {
+        var i = 2
+        while (i * i <= n) {
+            if ((n - 1) % i == 0) {
+                i++
+            }
+        }
+        return n - 1
+    }
+}
