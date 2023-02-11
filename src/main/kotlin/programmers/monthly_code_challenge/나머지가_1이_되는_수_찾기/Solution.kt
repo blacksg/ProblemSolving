@@ -5,8 +5,9 @@ class Solution {
         var i = 2
         while (i * i <= n) {
             if ((n - 1) % i == 0) {
-                i++
+                return i
             }
+            i++
         }
         return n - 1
     }
