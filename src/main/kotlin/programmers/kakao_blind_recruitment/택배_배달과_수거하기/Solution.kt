@@ -1,4 +1,4 @@
-package programmers.kakao_blind_incruitment.택배_배달과_수거하기
+package programmers.kakao_blind_recruitment.택배_배달과_수거하기
 
 import java.util.LinkedList
 import kotlin.math.max

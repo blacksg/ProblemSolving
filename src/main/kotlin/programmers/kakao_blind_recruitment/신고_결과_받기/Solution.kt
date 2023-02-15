@@ -1,4 +1,4 @@
-package programmers.kakao_blind_incruitment.신고_결과_받기
+package programmers.kakao_blind_recruitment.신고_결과_받기
 
 class Solution {
     fun solution(id_list: Array<String>, report: Array<String>, k: Int): IntArray {

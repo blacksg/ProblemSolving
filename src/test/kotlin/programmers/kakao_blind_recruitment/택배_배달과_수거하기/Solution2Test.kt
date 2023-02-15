@@ -1,12 +1,12 @@
-package programmers.kakao_blind_incruitment.택배_배달과_수거하기
+package programmers.kakao_blind_recruitment.택배_배달과_수거하기
 
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 
-internal class SolutionTest {
+internal class Solution2Test {
     
-    private val s = Solution()
+    private val s = Solution2()
     
     @Test
     fun solutionTest1() {
@@ -15,7 +15,7 @@ internal class SolutionTest {
             deliveries = intArrayOf(1, 0, 3, 1, 2),
             pickups = intArrayOf(0, 3, 0, 4, 0)
         )
-        assertEquals(16L, sol)
+        assertEquals(sol, 16L)
     }
     
     @Test
@@ -25,6 +25,6 @@ internal class SolutionTest {
             deliveries = intArrayOf(1, 0, 2, 0, 1, 0, 2),
             pickups = intArrayOf(0, 2, 0, 1, 0, 2, 0)
         )
-        assertEquals(30L, sol)
+        assertEquals(sol, 30L)
     }
 }

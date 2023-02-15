@@ -1,4 +1,4 @@
-package programmers.kakao_blind_incruitment.신규_아이디_추천
+package programmers.kakao_blind_recruitment.신규_아이디_추천
 
 class Solution {
     fun solution(new_id: String): String {

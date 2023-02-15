@@ -1,4 +1,4 @@
-package programmers.kakao_blind_incruitment.이모티콘_할인행사
+package programmers.kakao_blind_recruitment.이모티콘_할인행사
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.assertEquals
